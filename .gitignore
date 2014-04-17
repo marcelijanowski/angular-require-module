@@ -4,5 +4,5 @@
 libpeerconnection.log
 npm-debug.log
 node_modules
-vendor/angular
-vendor/angular-route
+assets/vendor/angular
+assets/vendor/angular-route
