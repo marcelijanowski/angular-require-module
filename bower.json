@@ -1,0 +1,9 @@
+{
+  "name": "require-modules",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.16",
+    "angular-route": "1.2.16",
+    "requirejs": "2.1.11"
+  }
+}
