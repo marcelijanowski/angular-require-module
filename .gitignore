@@ -7,3 +7,4 @@ node_modules
 assets/vendor/angular
 assets/vendor/angular-route
 assets/vendor/requirejs
+assets/vendor/lodash
