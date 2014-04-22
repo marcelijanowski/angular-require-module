@@ -1,8 +1,16 @@
 define([
   'angular',
-  'app-auth',
-  'app-main',
-  'app-session'
-], function (A, AppAuth, AppMain, AppSession) {
+  'config'
+], function (A, cfg) {
+  require([
+    'app-main'
+  ], function () {
+    A.module(cfg.ngApp, [
+    ]);
+    require(['controller/app-controller'], function () {
+      A.bootstrap(document.documentElement, [cfg.ngApp]);
+    });
 
+  });
 });
+
